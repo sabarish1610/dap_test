@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="match_parent"
+              tools:context=".fragment.AdminFragment">
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="60sp"
+              android:id="@+id/description"
+              android:hint="Description"/>
+
+    <Button
+            android:layout_below="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/whit"
+            android:text="Assign"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:id="@+id/assign"/>
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/whit"
+            android:text="Sign out"
+            android:id="@+id/admin_sing_out"/>
+
+
+</RelativeLayout>
